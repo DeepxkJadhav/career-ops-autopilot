@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "last_verified": "2026-11-27",
+  "personal": {
+    "full_name": "Alex Rivera",
+    "email": "alex.rivera@example.com",
+    "phone": "+91 9000012345",
+    "location": "Bengaluru, India",
+    "target_country": "India",
+    "github_url": "https://github.com/alexrivera-example",
+    "github_display": "github.com/alexrivera-example",
+    "portfolio_url": "https://alexrivera-example.vercel.app/",
+    "portfolio_display": "alexrivera-example.vercel.app",
+    "linkedin_url": "",
+    "linkedin_display": ""
+  },
+  "education": [
+    {
+      "institution": "Example Institute of Technology",
+      "location": "Bengaluru, India",
+      "degree": "B.Tech in Computer Science and Engineering (AI)",
+      "dates": "2023 -- July 2027 (Expected)",
+      "graduation_year": 2027,
+      "cgpa": "7.50/10",
+      "coursework": [
+        "Data Structures and Algorithms",
+        "Machine Learning",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks"
+      ]
+    }
+  ],
+  "experience": [],
+  "certifications": [],
+  "forbidden_unverified_patterns": [
+    "9.9/10",
+    "AWS Certified Solutions Architect",
+    "PLACEHOLDER"
+  ],
+  "verified_skills": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "SQL",
+    "HTML/CSS",
+    "HTML",
+    "CSS",
+    "PyTorch",
+    "FastAPI",
+    "Uvicorn",
+    "Pydantic",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "WebSockets",
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "SQLite",
+    "PostgreSQL",
+    "Docker",
+    "Git",
+    "GitHub",
+    "GitHub Actions",
+    "Pytest",
+    "Vitest",
+    "FAISS",
+    "OpenAI Whisper",
+    "Sentence-Transformers",
+    "RAG",
+    "Retrieval-Augmented Generation (RAG)",
+    "Multi-Agent Systems"
+  ],
+  "projects": [
+    {
+      "id": "sample-rag",
+      "name": "VoiceRAG -- Audio Retrieval & Q&A Service",
+      "short_name": "VoiceRAG",
+      "url": "https://github.com/alexrivera-example/voicerag",
+      "dates": "2026",
+      "domains": ["ai", "ml", "rag", "backend", "python"],
+      "stack": ["Python", "FastAPI", "OpenAI Whisper", "Sentence-Transformers", "FAISS", "Docker"],
+      "bullets": [
+        "Built a **FastAPI** and **FAISS** semantic search service indexing transcribed audio segments with **OpenAI Whisper** and **Sentence-Transformers**.",
+        "Containerized the API with **Docker** and added automated **Pytest** checks in **GitHub Actions**."
+      ]
+    },
+    {
+      "id": "sample-api",
+      "name": "CrawlVault -- Structured Data Extraction & Storage CLI",
+      "short_name": "CrawlVault",
+      "url": "https://github.com/alexrivera-example/crawlvault",
+      "dates": "2026",
+      "domains": ["data", "backend", "software", "full-stack"],
+      "stack": ["Node.js", "TypeScript", "SQLite", "REST APIs", "Vitest"],
+      "bullets": [
+        "Engineered a **TypeScript** and **Node.js** extraction pipeline persisting normalized records to **SQLite** with SSRF validation.",
+        "Verified parsing and deduplication logic with automated **Vitest** regression suites."
+      ]
+    },
+    {
+      "id": "sample-vision",
+      "name": "AgentDesk -- Real-Time Multi-Agent Web Workspace",
+      "short_name": "AgentDesk",
+      "url": "https://github.com/alexrivera-example/agentdesk",
+      "dates": "2026",
+      "domains": ["frontend", "full-stack", "ai-agent", "ui"],
+      "stack": ["React", "TypeScript", "Tailwind CSS", "WebSockets", "Vite", "FastAPI"],
+      "bullets": [
+        "Developed a responsive **React** and **TypeScript** interface streaming live execution events over **WebSockets** from a **FastAPI** backend.",
+        "Added schema validation and modular component tests for rapid iteration."
+      ]
+    }
+  ]
+}

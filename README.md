@@ -95,6 +95,17 @@ It tailors your CV and drafts your&nbsp;answers. <strong>You&nbsp;press&nbsp;Sub
   <a href="https://www.producthunt.com/products/santifer-io?utm_source=badge-featured&utm_medium=badge" rel="noopener noreferrer"><img src="docs/press/producthunt.svg" alt="Featured on Product Hunt" width="206" height="54"></a>
 </p>
 
+## Autonomous ATS Resume Engine & Remote Autopilot (Fork Addition)
+
+This fork extends **career-ops** with a local Python + LaTeX engine under [`career-documents/`](career-documents/README.md):
+- Job-specific single-column LaTeX resume generation (`modern-ats.tex` / `compact-ats.tex`) with automated `pdflatex` compilation and `pdftotext` + `pypdf` QA checks (`career-documents/engine/resume_engine.py`).
+- Strict 10-portal remote internship discovery, 24h freshness validation, remote-only & country-restriction gating, employer-source checks, cover-letter drafting, and deduplicated tracking (`career-documents/engine/autopilot.py`).
+- Cross-IDE entrypoints ready for **Claude Code**, **OpenAI Codex CLI**, **Google Antigravity**, **Cursor**, **Windsurf**, **Gemini CLI**, and **OpenCode**.
+
+See [`career-documents/README.md`](career-documents/README.md) for quick setup using the provided `.example` templates (`master_profile.json` and personal files remain gitignored).
+
+---
+
 ## Your turn
 
 Paste one job you were about to apply to tonight. If it comes back <em>do not apply</em>, you just got the night back. If it comes back with a plan, you know what to do next.

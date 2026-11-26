@@ -1,0 +1,142 @@
+{
+  "version": "2.0",
+  "primary_portals": {
+    "group_a_india": [
+      {
+        "id": "nextknock",
+        "name": "NextKnock",
+        "url": "https://www.nextknock.in/jobs/remote-jobs-for-freshers/internship",
+        "group": "A"
+      },
+      {
+        "id": "abekus",
+        "name": "Abekus",
+        "url": "https://abekus.ai/internships/remote",
+        "group": "A"
+      },
+      {
+        "id": "hellointern",
+        "name": "HelloIntern",
+        "url": "https://hellointern.in/work-from-home-internships",
+        "group": "A"
+      },
+      {
+        "id": "reminterns",
+        "name": "REM Interns",
+        "url": "https://reminterns.com/",
+        "group": "A"
+      },
+      {
+        "id": "hirastra",
+        "name": "Hirastra",
+        "url": "https://hirastra.com/work-from-home-internships",
+        "group": "A"
+      }
+    ],
+    "group_b_global": [
+      {
+        "id": "alion",
+        "name": "Alion — India Remote Internships",
+        "url": "https://alion.io/remote-internships/india",
+        "group": "B"
+      },
+      {
+        "id": "himalayas",
+        "name": "Himalayas — Worldwide Internships",
+        "url": "https://himalayas.app/jobs/worldwide/intern",
+        "api_url": "https://himalayas.app/jobs/api?limit=20",
+        "group": "B"
+      },
+      {
+        "id": "remotive",
+        "name": "Remotive — Remote Internships",
+        "url": "https://remotive.com/remote-internship-jobs",
+        "api_url": "https://remotive.com/api/remote-jobs",
+        "group": "B"
+      },
+      {
+        "id": "firstjobby",
+        "name": "First Jobby — Remote Internships",
+        "url": "https://firstjobby.com/job-boards/remote-internships",
+        "group": "B"
+      },
+      {
+        "id": "leadinternships",
+        "name": "LEAD Internships — Remote",
+        "url": "https://leadinternships.com/internships/remote",
+        "group": "B"
+      }
+    ]
+  },
+  "excluded_portals": [
+    "Internshala",
+    "LinkedIn",
+    "Indeed",
+    "Wellfound",
+    "Unstop",
+    "Naukri"
+  ],
+  "target_roles": [
+    "AI Engineer Intern",
+    "Machine Learning Intern",
+    "Generative AI Intern",
+    "AI Agent Developer Intern",
+    "Data Science Intern",
+    "Data Analyst Intern",
+    "Python Developer Intern",
+    "Software Developer Intern",
+    "Backend Developer Intern",
+    "Full Stack Developer Intern",
+    "Cloud Engineering Intern",
+    "DevOps Intern",
+    "Cybersecurity Intern",
+    "Research Engineer Intern"
+  ],
+  "location_policy": {
+    "primary_country": "India",
+    "remote_only": true,
+    "reject_hybrid_or_onsite": true,
+    "reject_secret_office_attendance": true,
+    "reject_country_restricted_excluding_india": [
+      "US-only",
+      "UK-only",
+      "EU-only",
+      "EEA-only",
+      "Canada-only",
+      "Australia-only",
+      "LATAM-only"
+    ],
+    "require_jd_check_for_worldwide": true
+  },
+  "freshness_policy": {
+    "window_hours": 24,
+    "require_original_publication_timestamp": true,
+    "reject_unknown_dates_from_24h": true,
+    "never_equate_aggregator_refresh_with_original_post": true
+  },
+  "quality_policy": {
+    "prefer": [
+      "Paid internships",
+      "Real software/engineering/R&D work",
+      "Direct mentorship",
+      "Production code contributions",
+      "Defined project and supervisor",
+      "Explicit PPO/conversion"
+    ],
+    "reject": [
+      "Commission-only roles",
+      "Referral-only campaigns",
+      "Unrelated campus ambassador roles",
+      "Lead-generation disguised as technical internships",
+      "Training programmes sold as internships",
+      "Payment-required internships",
+      "Unpaid roles without meaningful technical work"
+    ]
+  },
+  "source_verification": {
+    "treat_portals_as_discovery_only": true,
+    "require_direct_employer_verification": true,
+    "canonical_application_url": "direct_employer_application_page",
+    "report_unverified_or_blocked_honestly": true
+  }
+}

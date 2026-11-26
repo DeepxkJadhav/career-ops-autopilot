@@ -316,3 +316,22 @@ web/out/
 # Regenerate with `npm run harvest:buildlist`.
 buildlist-*.yml
 buildlist-*.yml.progress.json
+
+# Autonomous ATS Resume Engine & 10-Portal Remote Autopilot (Private User Data — never commit)
+career-documents/MASTER_PROFILE.md
+career-documents/master_profile.json
+career-documents/MASTER_RESUME.md
+career-documents/MASTER_RESUME.tex
+career-documents/MASTER_RESUME.pdf
+career-documents/APPLICATION_TRACKER.md
+career-documents/application_tracker.json
+career-documents/LEARNING_REPORT.md
+career-documents/tailored-resumes/
+career-documents/cover-letters/
+career-documents/application-packets/
+career-documents/resume-audits/
+career-documents/job-description-archives/
+career-documents/daily-reports/
+career-documents/engine/.autopilot.lock
+**/__pycache__/
+*.pyc
